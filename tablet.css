@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+
+    body {
+        margin: 0; 
+        overflow-x: hidden;
+    }
+
+    .smaller-menue {
+        background: #fdf2e9;
+        display: block;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: flex-end;
+        flex: 1; 
+        padding: 0.5em; 
+        align-items: center;
+    } 
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    /*HIDDEN DESKTOP CLASSES*/
+    .header-links{
+        display: none;
+    }
+    /*HIDDEN MOBILE CLASSES*/
+    .customer {
+       display: none; 
+    }
+    .desktop-menue {
+        display: none;
+    }
+
+}

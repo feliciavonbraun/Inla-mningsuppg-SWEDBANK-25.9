@@ -1,0 +1,13 @@
+@media (max-width: 480px)  {
+    main {
+        flex-wrap: wrap; 
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    .footer-divs {
+        max-width: unset;
+    }
+}

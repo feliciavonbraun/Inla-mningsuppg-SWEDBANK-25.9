@@ -1,0 +1,16 @@
+Html och CSS
+Mikaela A och Felicia vBW
+
+Vi har valt att återskapa Swedbanks hemsida då de har lite olika element 
+som kan vara lärorikt att återskapa.
+Vi valde att ta bort den orangea linjen högst upp eftersom vår hemsida blir lite
+annorlunda än deras då vår vår <main> och <footer> inte innehåller samma som Swedbanks.
+I och med att uppgiften skulle innehålla det första du ser på hemsidan så blev vår footer
+anorlunda. Vi valde däremot att ta med lite extra (ex. texten under de tre bilderna, footer-divs) 
+för att göra vår hemsida mer scroll-vänlig. 
+Fav-ikonen försökte vi få bredare men lyckades ej med det tyvärr. 
+
+
+
+Originalhemsidan:
+https://www.swedbank.se/

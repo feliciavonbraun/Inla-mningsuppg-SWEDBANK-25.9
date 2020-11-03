@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Open Sans';
+    display: flex;
+    justify-content: center;
+}
+
+.centered-content {
+    width: 100%;
+    max-width: 65rem;
+}
+
+.material-icons {
+    vertical-align: text-bottom;
+} 
+
+/* HEADER */
+header {
+    background: white;
+    color: white;
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    height: 10;
+
+    display: flex;
+    padding: 1rem;
+    max-width: 100%;
+}  
+
+.swedbank-logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+button {
+    background: orange;
+    color: white;
+    padding: 1rem;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 0.8rem; 
+}
+
+.header-links {
+    background: white; 
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-links a {
+    padding-right: 1rem;
+}
+
+.desktop-menue{
+    display: flex;
+    background-color:#fdf2e9;
+    padding: 1rem; 
+}
+
+.privat{
+    display: flex; 
+    flex: 1; 
+}
+
+.other-lang{
+    display: flex;  
+}
+
+.search-input {
+    background: rgba(255, 255, 255, 1.5);
+    width: 8rem;
+    height: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+nav {
+    padding-left: 1rem;
+}
+
+/* MAIN */
+main {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.main-text {
+    background-color: #fdf2e9;
+    text-align: left;
+    padding: 1rem; 
+    width: 40rem; 
+    align-items: center; 
+}
+
+.news {
+    background-color:white;
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+
+h2{
+    border-bottom: .2rem solid #fdf2e9;
+}
+
+/* FOOTER*/
+footer {
+    display: flex; 
+    background:white;
+    flex-wrap: wrap;
+}
+
+.footer-divs {
+    box-sizing: border-box;
+    flex: 1 0 15rem; 
+    padding: 1rem;
+    max-width: 50%;
+}
+
+h3 {
+    color: #fd6900; 
+    padding-left: 1rem;
+}
+
+/* HIDDEN FOR LARGE SCREENS*/
+
+.smaller-menue{
+    display: none;
+}
